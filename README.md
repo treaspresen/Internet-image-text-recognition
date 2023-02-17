@@ -25,3 +25,7 @@
 ​	在终端中输入 `python detect.py --weights runs/train/exp/weights/best.pt --save-txt` 
 
 也可以在train.py和detect.py中对相关参数进行修改。 --save-txt会保存每张测试图片的检测结果坐标信息。
+
+### 3、结果处理
+
+​	通过result.ipynb将--save-txt保存的坐标信息先转换回一般格式，在裁剪识别保存。
